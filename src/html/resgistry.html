@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../sass/resgistry.css">
+    <link rel="stylesheet" href="../sass/login-common.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+    </header>
+
+    <!-- 注册模块 -->
+    <div class="login w cl">
+        <div class="left">
+            <img src="https://i1.vanclimg.com/cms/20160902/login120412_newlogo.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="top cl">
+                <h3>注册新用户</h3>
+                <h4>我已经注册，现在就 <a href="http://localhost/study/day31/projectname/dist/html/login.html" target="_blank">登录</a></h4>
+            </div>
+            <div class="denglu">
+                <h2>用户注册</h2>
+                <form action="http://localhost/vancl/nzproject/dist/php/registry.php" method="POST">
+                    <p>
+                        <input type="text" name="username" id="" placeholder="请输入用户姓名" class="username">
+                        <span></span>
+                    </p>
+                    <p>
+                        <input type="password" name="password" id="" placeholder="请输入密码" class="password">
+                        <span></span>
+                    </p>
+                    <p>
+                        <input type="password" name="repass" id="" placeholder="请确认密码" class="repass">
+                        <span></span>
+                    </p>
+                    <p>
+                        <input type="email" name="email" id="" placeholder="请输入邮箱"  class="email">
+                        <span></span>
+                    </p>
+                    <p class="btn"><input type="submit" value="用户注册" name="submit"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+    </footer>
+</body>
+<script src=" https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="../script/registry.js"></script>
+<script>
+    $('header').load('login-head.html');
+    $('footer').load('login-foot.html')
+</script>
+</html>

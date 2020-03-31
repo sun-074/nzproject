@@ -1,0 +1,31 @@
+@charset "UTF-8"; //1.设置字符编码,支持中文注释。
+
+
+/*头部*/
+
+header{
+    width: 100%;
+
+    .logo{
+        border-bottom: 1px solid black;
+        
+        h1{
+            float: left;
+            margin: 20px 0 20px 0;
+        }
+    }
+}
+
+
+
+
+
+
+/*尾部*/
+
+footer{
+    p{
+        text-align: center;
+        color: #999;
+    }
+}

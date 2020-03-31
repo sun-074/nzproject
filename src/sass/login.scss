@@ -1,0 +1,80 @@
+@charset "UTF-8"; //1.设置字符编码,支持中文注释。
+
+.login{
+
+    text-align: center;
+        .left{
+            width: 50%;
+            float: left;
+            line-height: 474px;
+
+            img{
+                width: 465px;
+                height: 352px;
+                margin-top: 100px;
+            }
+        }        
+        .right{
+        width: 50%;
+        float: right;
+        height: 474px;
+
+            .top{
+                margin-top: 30px;
+                line-height: 50px;
+
+                h3{
+                    float: left;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    color: #eee;
+                }
+
+                h4{
+                    float: right;
+                    margin-right: 100px;
+                    font-size: 14px;
+
+                    a{
+                        color: red;
+                    }
+                }
+        }
+
+        .denglu{
+            width: 400px;
+            float: left;
+            height: 362px;
+            border: 1px solid black;
+            margin-left: 100px;
+
+            h2{
+                line-height: 30px;
+                margin-top: 15px;
+            }
+
+            input{
+                width: 360px;
+                height: 45px;
+                border: 1px solid black;
+                margin-top: 25px;
+            }
+
+            span{
+                background-color: red;
+                width: 360px;
+                height: 45px;
+                color: white;
+                font-size: 28px;
+                display: inline-block;
+                line-height: 45px;
+                margin-top: 15px;
+                cursor: pointer;
+
+                &:hover{
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}

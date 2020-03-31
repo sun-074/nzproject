@@ -1,0 +1,109 @@
+@charset "UTF-8"; //1.设置字符编码,支持中文注释。
+
+/*头部*/
+header{
+    width: 100%;
+    padding-top: 15px;
+
+    .logo{
+        border-bottom: 1px solid black;
+        width: 980px;
+
+        h1{
+            float: left;
+
+            img{
+                width: 311px;
+                height: 39px;
+            }
+        }
+
+        ul{
+            li{
+                float: right;
+                margin-left: 8px;
+            }
+        }
+
+        span{
+            float: right;
+            margin-left: 15px;
+        }
+    }
+}
+
+
+/*商品列表*/
+
+.carlist{
+    // background-color: red;
+    margin-top: 30px;
+    width: 980px;
+    margin-bottom: 30px;
+
+    table{
+        width: 980px;
+        text-align: center;
+        border-collapse: collapse;
+        
+        .car-head{
+            background-color: #ccc;
+        }
+
+        .car-goods{
+            // display: none;
+            td{
+                background-color: #f8f8f8;
+                font-size: 14px;
+                button{
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                }
+                input{
+                    width: 30px;
+                    height: 20px;
+                    text-align: center;
+                }
+                a{
+                    line-height: 52px;
+                }
+            }
+        }
+    }
+
+    .car-foot{
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        margin-top: 20px;
+        height: 50px;
+        line-height: 50px;
+        .left{
+            float: left;
+            margin-left: 60px;
+            a{
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+        .right{
+            div{
+                float: right;
+                font-size: 20px;
+                margin-right: 50px;
+                color: red;
+            }
+            
+        }
+    }
+}
+
+
+/*尾部*/
+
+footer{
+    p{
+        text-align: center;
+        color: #999;
+    }
+}

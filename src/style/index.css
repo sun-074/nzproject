@@ -1,0 +1,295 @@
+.head{
+    width: 100%;
+    background-color: #f7f7f7;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.top ul li{
+    float: right;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.top ul li i{
+    color: red;
+}
+
+header{
+    width: 100%;
+}
+.find .finds{
+    float: right;
+}
+.find input{
+    width: 200px;
+    height: 24px;
+    margin-top : 25px;
+    border: 1px solid black;
+}
+.find span{
+    display: block;
+    width: 30px;
+    height: 24px;
+    text-align: center;
+    background-color:red;
+    border: 1px solid red;
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+    color:white;
+}
+.gou_wu {
+	width: 120px;
+	height: 24px;
+	float: right;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+	text-align: center;
+    margin: 25px 0 0 25px;
+	background-size:20px;
+	position: relative;
+} 
+.gou_wu a{
+	display: block;
+}
+.gou_wu .iconfont{
+    padding-right: 5px;
+}
+.gou_wu div{
+	width: 200px;
+	height: 120px;
+	background-color: yellow;
+	position: absolute;
+	right: 0;
+	height:0;
+	transition:1s;
+	overflow: hidden;
+}
+.gou_wu:hover div{
+	height:50px;
+}
+.gou_wu:hover{
+	background-color: white;
+	color: orange;
+}
+header p{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+.list{
+    /* background-color: red; */
+    /* text-align: center; */
+    font-size: 16px;
+}
+.list h1{
+    float: left;
+}
+.list ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin: 20px 0;
+    position: relative;
+}
+.list li{
+    border-right: 1px solid #ccc;
+    padding:0 30px;
+    color: #727171;
+}
+.list ul .lat{
+    border-right: 1px solid white;
+}
+
+.list ul li .menu{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 35px;
+   z-index: 1;
+   transition: 1s;
+   background-color: #fff;
+    overflow: hidden;
+   height: 0;
+}
+
+.list li .menu p{
+    text-align: center;
+    line-height: 35px;
+}
+.list li:hover .menu{
+    border-top: 5px solid red;
+    height: 520px;
+}
+
+.banner{
+    width: 100%;
+    /* background-color: red; */
+    height: 535px;
+    position: relative;
+}
+.lunbo ul li{
+    opacity: 0;
+    position: absolute;
+    left: 75px;
+    top: 0px;
+}
+.lunbo ol {
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+
+.lunbo ol li {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    float: left;
+    text-indent: -999em;
+    cursor: pointer;
+}
+
+.lunbo ol li.active {
+    background-color: orange;
+}
+
+.left,
+.right {
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+}
+.left {
+    left: 100px;
+}
+.right {
+    right: 100px;
+}
+
+.shop{
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 24px;
+    line-height:100px;
+    text-align: center;
+    color: #ccc;
+}
+.goods ul li{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 16px;
+    float: left;
+    width: 24%;
+    margin: 4%;
+    cursor: pointer;
+}
+.goods img{
+    width: 288px;
+    height: 300px;
+}
+.goods p{
+    text-align: center;
+}
+.shops img{
+    float: left;
+}
+
+
+
+.foot{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.foot-top{
+    text-align: center;
+}
+.foot-top ul li{
+    float: left;
+    width: 33%;
+}
+.foot-top img{
+    width: 42px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 42px;
+}
+.foot-top h3{
+    background-color: red;
+    color: white;
+    display: block;
+    width: 140px;
+    line-height: 40px;
+    margin-left:130px;
+    margin-top: 25px;
+}
+.foot-top p{
+    line-height: 25px;
+    font-size: 18px;
+}
+.foot-top .last img{
+    width: 104px;
+    height: 104px;
+}
+.foot-down{
+    text-align: center;
+}
+.foot-down ul li{
+   display: inline-block;
+   font-size: 16px;
+   line-height: 30px;
+   margin: 30px 0;
+   border-right: 1px solid #ccc;
+   padding:10px 35px;
+   background-color: #f8f8f8;
+}
+.foot-down ul .one{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0;
+    padding:10px 35px;
+    background-color: #f8f8f8;
+    border-right: 1px solid white;
+
+}
+
+footer div{
+    border-top: 1px solid black;
+}
+footer p{
+    text-align: center;
+}
+.move{
+    position: fixed;
+    
+    right: 0;
+    top: 25%;
+}
+.move ul li{
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #ccc;
+    background-color: white;
+}
+.move .iconfont{
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+
+
